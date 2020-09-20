@@ -1,9 +1,32 @@
 pipeline {
   agent any
+
   stages {
-    stage("first") {
+    stage('1st') {
       steps {
-        echo 'hi'
+        sleep 2
+        sleep 2
+        sleep 2
+        sleep 2
+        sleep 2
+      }
+    }
+    stage('2nd') {
+      steps {
+        sleep 2
+        sleep 2
+        sleep 2
+        sleep 2
+        sleep 2
+      }
+    }
+    stage('3rd') {
+      steps {
+        sleep 2
+        sleep 2
+        sleep 2
+        sleep 2
+        sleep 2
       }
     }
   }
