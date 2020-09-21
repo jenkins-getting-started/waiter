@@ -24,9 +24,7 @@ pipeline {
     }
     stage('2nd') {
       steps {
-        script {
-          gen_2nd_steps()
-        }
+        gen_2nd_steps()
       }
     }
   }
